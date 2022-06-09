@@ -14,5 +14,5 @@ function distanceFromHqInBlocks(someValue) {
   function calculatesFarePrice(start, destination) {
     return(distanceTravelledInFeet(start, destination)<=400 ? 0 : distanceTravelledInFeet(start, destination) > 400 && distanceTravelledInFeet(start, destination) <= 2000 ? 
     (distanceTravelledInFeet(start, destination)-400) * 0.02: distanceTravelledInFeet(start, destination) >2000 && distanceTravelledInFeet(start, destination) <= 2500 ? 
-    25:  distanceTravelledInFeet(start, destination) >2500 ? 'cannot travel that far': " ")
+    25:  distanceTravelledInFeet(start, destination) >2500 ? 'cannot travel that far':" ")
   }
